@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract ISkyXV3Pool",
+        "name": "pool",
+        "type": "address"
+      }
+    ],
+    "name": "deploy",
+    "outputs": [
+      {
+        "internalType": "contract ILMPool",
+        "name": "lmPool",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

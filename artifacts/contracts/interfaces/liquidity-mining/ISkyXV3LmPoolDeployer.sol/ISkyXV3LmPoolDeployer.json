@@ -1,0 +1,30 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ISkyXV3LmPoolDeployer",
+  "sourceName": "contracts/interfaces/liquidity-mining/ISkyXV3LmPoolDeployer.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract ISkyXV3Pool",
+          "name": "pool",
+          "type": "address"
+        }
+      ],
+      "name": "deploy",
+      "outputs": [
+        {
+          "internalType": "contract ILMPool",
+          "name": "lmPool",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
